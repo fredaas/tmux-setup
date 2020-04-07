@@ -1,3 +1,11 @@
+DESCRIPTION
+--------------------------------------------------------------------------------
+
+Install tmux anywhere from source without sudo.
+
+SETUP
+--------------------------------------------------------------------------------
+
 Install:
 
     $ ./tmux_install.sh
@@ -15,8 +23,8 @@ Check dependecies:
 If you're not happy with the tarballs provided in this repo, you can find
 alternatives here:
 
-    https://github.com/tmux/tmux/releases
+    https://github.com/tmux/tmux/releases/
 
-    https://github.com/libevent/libevent/releases
+    https://github.com/libevent/libevent/releases/
 
     https://invisible-mirror.net/archives/ncurses/
