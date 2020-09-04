@@ -2,6 +2,12 @@
 
 set -e
 
+ROOT_DIR=${HOME}
+
+cp -r libevent-2.1.11-stable.tar.gz ncurses-6.2.tar.gz tmux-3.0a.tar.gz ${ROOT_DIR}
+
+cd ${ROOT_DIR}
+
 tar -xzvf libevent-2.1.11-stable.tar.gz
 tar -xzvf ncurses-6.2.tar.gz
 tar -xzvf tmux-3.0a.tar.gz
@@ -32,4 +38,4 @@ make
 make install
 cd ..
 
-echo "\n[SUCCESS] ${HOME}/install/bin/tmux is now avaiable"
+echo "[SUCCESS] ${HOME}/local/bin/tmux is now available"
