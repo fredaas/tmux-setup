@@ -6,6 +6,8 @@ Install tmux anywhere from source without sudo.
 SETUP
 --------------------------------------------------------------------------------
 
+tmux_setup.sh will by default install tmux in ${HOME}/local.
+
 Install:
 
     $ ./tmux_install.sh
